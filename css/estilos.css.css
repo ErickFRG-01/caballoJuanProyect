@@ -43,7 +43,7 @@ body{
     left: 42px;
     z-index: 2;
 
-    background: url(../img/dino.png) repeat-x 0px 0px;
+    background: url(../img/caballo.png) repeat-x 0px 0px;
     background-size: 336px 84px;
     background-position-x: 0px;
 
@@ -78,13 +78,13 @@ body{
     left: 600px;
     z-index: 1;
 
-    background: url(../img/cactus1.png) no-repeat;
+    background: url(../img/pico1.png) no-repeat;
 }
 .cactus2{
     width: 98px;
     height: 66px;
 
-    background: url(../img/cactus2.png) no-repeat;
+    background: url(../img/pico2.png) no-repeat;
 }
 
 .nube{
