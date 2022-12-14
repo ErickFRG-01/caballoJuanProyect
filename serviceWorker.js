@@ -1,4 +1,4 @@
-const staticDevCaballo = "Equipo CaballoJuan"
+const staticDevSite = "site-v1"
 const assets = [
   "index.html",
   "css/estilos.css",
@@ -12,7 +12,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCaballo).then(cache => {
+    caches.open(staticDevSite).then(cache => {
       cache.addAll(assets)
     })
   )
