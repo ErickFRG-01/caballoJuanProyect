@@ -1,11 +1,11 @@
 {
-  "name": "Dino proyect",
+  "name": "upmh",
   "short_name": "UPMH",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
-  "orientation": "landscape-primary",
+  "orientation": "landscape",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
