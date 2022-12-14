@@ -59,12 +59,7 @@ body {
   padding: 0.3rem 1rem;
   border-radius: 20px;
 }
-body{
-    height: 100vh;
-    background: #584040;
-    display: flex;
-    align-items: center;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
