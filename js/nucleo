@@ -238,7 +238,3 @@ function IsCollision(a, b, paddingTop, paddingRight, paddingBottom, paddingLeft)
         (aRect.left + paddingLeft > (bRect.left + bRect.width))
     );
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
