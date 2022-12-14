@@ -1,4 +1,4 @@
-const staticDevCaballo = "Equipo CaballoJuan"
+const staticDevSite = "Equipo CaballoJuan"
 const assets = [
   "index.html",
   "css/estilos.css",
