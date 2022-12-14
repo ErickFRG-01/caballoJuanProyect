@@ -9,10 +9,9 @@ const assets = [
   "img/nube.png",
   "img/suelo.png",
 ]
-
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCaballo).then(cache => {
+    caches.open(staticDevSite).then(cache => {
       cache.addAll(assets)
     })
   )
@@ -25,4 +24,3 @@ self.addEventListener("fetch", fetchEvent => {
       })
     )
   })
-  
